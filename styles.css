@@ -89,7 +89,7 @@ padding: 0 15px;
     width: 20px;
 }
 
-@media (min-width: 768px) and (max-width: 960px) {
+/* @media (min-width: 768px) and (max-width: 960px) {
     
     .carousel-caption {
         top: 1.25rem;
@@ -105,8 +105,8 @@ padding: 0 15px;
         height: 150px !important;
     }
 
-}
-@media (max-width: 1200px) { 
+} */
+/* @media (max-width: 1200px) { 
     .carousel-caption {
         top: 1.25rem;
         left: 50%;
@@ -118,9 +118,9 @@ padding: 0 15px;
         font-size: 1rem;
     }
    
- }
+ } */
 
- @media (min-width: 320px) and (max-width: 768px) {
+ /* @media (min-width: 320px) and (max-width: 768px) {
     .carousel-caption {
         top: 30%;
     }
@@ -136,16 +136,95 @@ padding: 0 15px;
     .carousel {
         margin: 56px 0px 0px 0px;
     }
- }
- @media screen and (max-width: 480px) and (min-width:320px) {
+ } */
+ /* @media screen and (max-width: 480px) and (min-width:320px) {
  .slider_price {
      grid-template-columns: 1fr;
      font-size: 14px;
  }
-}
-@media screen and (min-width: 1200px)  {
+} */
+/* @media screen and (min-width: 1200px)  {
     .carousel-caption {
         top: 0.9rem;
 
     } 
-   }
+   } */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carousel-caption {
+        top: 30%;
+    }
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+    .carousel-caption p {
+        font-size: 0.5rem;
+    }
+    img {
+        height: 116px !important;
+    }
+    .carousel {
+        margin: 56px 0px 0px 0px;
+    }
+    .slider_price {
+        grid-template-columns: 1fr;
+        font-size: 14px;
+    }
+    .container-fluid {
+        flex-wrap: nowrap !important;
+    }
+    .navbar-brand {
+        font-size: 15px;
+    }
+}
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .carousel-caption h5 {
+        font-size: 2.25rem;
+    }
+    .slider_price {
+        grid-template-columns: 1fr;
+    }
+    .carousel-caption {
+        bottom: -0.75rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .slider_price {
+        grid-template-columns:1fr 1fr;
+    }
+    .carousel-caption {
+        width: 42%;
+        bottom: 2.25rem;
+    }
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .carousel-caption {
+        top: 1.25rem;
+        left: 50%;
+        align-items: center;
+        width: 40%;
+    }
+    .carousel-caption h5 {
+        font-size: 3.25rem;
+    }
+    .carousel-caption p {
+        font-size: 1.25rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .carousel-caption {
+        top: 0.9rem;
+
+    } 
+}
