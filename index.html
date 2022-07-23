@@ -11,22 +11,26 @@
     <body>
 
     <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
+        <nav class="navbar navbar-white bg-white fixed-top navbar-expand-lg offcanvas-border-color-black">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Какой-нибудь текст или лого</a>
+              <a class="navbar-brand" href="#"><img src="pics/logo.jpg" alt="" class="logo"></a>
+              <a class="navbar-brand" href="#">Копіцентр "Кутузовський"</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas offcanvas-end text-bg-white" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link active home" aria-current="page" href="#">Home</a>
-                      </li>
+                      </li> -->
+                      <li class="nav-item">
+                        <a class="nav-link test" href="#about">Про Нас</a>
+                    </li>
                       <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle services" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Послуги
@@ -64,7 +68,7 @@
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
                 <img src="pics/2-layers_1.png" class="d-block w-100" alt="..." style="width: 50% !important; height: 250px;">
-                <div class="carousel-caption d-none d-md-block test">
+                  <div class="carousel-caption d-none d-md-block test">
                     <h5> Листовки </h5>
                     <p class="slider_price"> <span class="price_element">1000 шт - 900 грн </span> <span class="price_element">5000 шт - 3100 грн</span> <span class="price_element">2500 шт - 1800 грн</span> <span class="price_element">10000 шт - 5300грн</span> <span class="price_element"></span> <span class="price_element"></span> </p>
                   </div>
@@ -74,11 +78,11 @@
                 <div class="carousel-caption d-none d-md-block test">
                     <h5 class="slider_title"> Сеты для ресторанов </h5>
                     <p class="slider_price"> <span class="price_element">1000 шт - 900 грн </span> <span class="price_element">5000 шт - 3100 грн</span> <span class="price_element">2500 шт - 1800 грн</span> <span class="price_element">10000 шт - 5300грн</span> <span class="price_element"></span> <span class="price_element"></span> </p>
-                  </div>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="pics/slide_2.png" class="d-block w-100" alt="..." style="width: 50% !important; height: 250px;">
-                <div class="carousel-caption d-none d-md-block test">
+                  <div class="carousel-caption d-none d-md-block test">
                     <h5> Евробуклеты </h5>
                     <p class="slider_price"> <span class="price_element">1000 шт - 900 грн </span> <span class="price_element">5000 шт - 3100 грн</span> <span class="price_element">2500 шт - 1800 грн</span> <span class="price_element">10000 шт - 5300грн</span> <span class="price_element"></span> <span class="price_element"></span> </p>
                   </div>
@@ -94,14 +98,45 @@
             </button>
           </div>
     </div>
+
+    <div class="slider-2-container">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="pics/2-layers_1.png" class="d-block w-100" alt="..." style="width: 50% !important; height: 250px;">
+            <div class="carousel-caption d-none d-md-block test">
+              <h5> Листовки </h5>
+              <p class="slider_price"> <span class="price_element">1000 шт - 900 грн </span> <span class="price_element">5000 шт - 3100 грн</span> <span class="price_element">2500 шт - 1800 грн</span> <span class="price_element">10000 шт - 5300грн</span> <span class="price_element"></span> <span class="price_element"></span> </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="pics/4.png" class="d-block w-100" alt="..." style="width: 50% !important; height: 250px;">
+            <div class="carousel-caption d-none d-md-block test">
+              <h5 class="slider_title"> Сеты для ресторанов </h5>
+              <p class="slider_price"> <span class="price_element">1000 шт - 900 грн </span> <span class="price_element">5000 шт - 3100 грн</span> <span class="price_element">2500 шт - 1800 грн</span> <span class="price_element">10000 шт - 5300грн</span> <span class="price_element"></span> <span class="price_element"></span> </p>
+          </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="pics/slide_2.png" class="d-block w-100" alt="..." style="width: 50% !important; height: 250px;">
+            <div class="carousel-caption d-none d-md-block test">
+              <h5> Евробуклеты </h5>
+              <p class="slider_price"> <span class="price_element">1000 шт - 900 грн </span> <span class="price_element">5000 шт - 3100 грн</span> <span class="price_element">2500 шт - 1800 грн</span> <span class="price_element">10000 шт - 5300грн</span> <span class="price_element"></span> <span class="price_element"></span> </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
       
 <main>
-    <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus voluptatem dolorem iste. Eum consequatur hic alias facilis, temporibus voluptate? Natus facere obcaecati vero a sint repellendus! Repellat ab sit error.
-Lorem ipsum dolt consectetur adipisicing elit. Distinctio nobis voluptates dicta nesciunt id. Exercitationem quaerat doloremque rerum et, odio est reprehenderit nesciunt sapiente consequatur aperiam? Minima sint error facere.
- Odit, nesciunt consectetur officia facilis ipsam accusantium sit doloremque ipsum voluptatem at minima laboriosam, repellat saepe quam autem labore quod illo ipsa?
-      
-    </div>
+    
     <div class="cards-wrapper">
     <div class="row row-cols-1 row-cols-md-4 g-4">
       <div class="col">
@@ -180,6 +215,16 @@ Lorem ipsum dolt consectetur adipisicing elit. Distinctio nobis voluptates dicta
       </div>
     </div>
   </div>
+
+  <div class="about-us" id="about">
+    <h3>About US</h3>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus voluptatem dolorem iste. Eum consequatur hic alias facilis, temporibus voluptate? Natus facere obcaecati vero a sint repellendus! Repellat ab sit error.
+    Lorem ipsum dolt consectetur adipisicing elit. Distinctio nobis voluptates dicta nesciunt id. Exercitationem quaerat doloremque rerum et, odio est reprehenderit nesciunt sapiente consequatur aperiam? Minima sint error facere.
+    Odit, nesciunt consectetur officia facilis ipsam accusantium sit doloremque ipsum 
+  </p>  
+  
+</div>
 </main>
 
 
@@ -195,11 +240,10 @@ Lorem ipsum dolt consectetur adipisicing elit. Distinctio nobis voluptates dicta
     </ul>
     <p class="text-center text-muted">© 2022 Company, Inc</p>
   </footer>
-
+  <script src="jquery-3.6.0.js"></script>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
-    
 </body>    
 
 </html>

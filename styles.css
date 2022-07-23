@@ -5,6 +5,10 @@ body {
     box-sizing: border-box;
 }
 /* NAVIGATION */
+.logo {
+    height: 80px;
+    width: 100px;
+}
 .nav-item {
     display: flex;
     align-items: center;
@@ -21,6 +25,16 @@ i .fa, .fas {
 .home,
 .services {
     margin-right: 10px;
+}
+.fixed-top {
+    border-bottom: 1px solid #2f2681;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 var(--bs-navbar-toggler-focus-width) !important;
+}
+.navbar-brand {
+    color: #2f2681;
+        text-transform: uppercase;
 }
 
 /*Footer*/
@@ -71,7 +85,7 @@ margin: 20px;
 }
 .carousel {
     position: relative;
-    margin: 56px 30px 0px 30px;
+    margin: 106px 30px 0px 30px;
     padding: 30px;
 }
 .carousel-control-prev-icon, 
@@ -98,69 +112,20 @@ margin: 20px;
 .cards-wrapper {
     margin-top: 20px;
 }
-/* @media (min-width: 768px) and (max-width: 960px) {
-    
-    .carousel-caption {
-        top: 1.25rem;
-        left: 50%;
-    }
-    .carousel-caption h5 {
-        font-size: 2.25rem;
-    }
-    .carousel-caption p {
-        font-size: 1rem;
-    }
-    img {
-        height: 150px !important;
-    }
 
-} */
-/* @media (max-width: 1200px) { 
-    .carousel-caption {
-        top: 1.25rem;
-        left: 50%;
-        align-items: center;
-        width: 40%;
-    }
-    
-    .carousel-caption p {
-        font-size: 1rem;
-    }
-   
- } */
 
- /* @media (min-width: 320px) and (max-width: 768px) {
-    .carousel-caption {
-        top: 30%;
-    }
-    .carousel-caption h5 {
-        font-size: 1rem;
-    }
-    .carousel-caption p {
-        font-size: 0.5rem;
-    }
-    img {
-        height: 116px !important;
-    }
-    .carousel {
-        margin: 56px 0px 0px 0px;
-    }
- } */
- /* @media screen and (max-width: 480px) and (min-width:320px) {
- .slider_price {
-     grid-template-columns: 1fr;
-     font-size: 14px;
- }
-} */
-/* @media screen and (min-width: 1200px)  {
-    .carousel-caption {
-        top: 0.9rem;
 
-    } 
-   } */
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .logo {
+        height: 50px;
+        width: 50px;
+    }
+    .navbar-brand {
+        font-size: 12px;
+    }
     .carousel-caption {
         top: 30%;
     }
@@ -170,11 +135,11 @@ margin: 20px;
     .carousel-caption p {
         font-size: 0.5rem;
     }
-    img {
+    .w-100 {
         height: 116px !important;
     }
     .carousel {
-        margin: 56px 0px 0px 0px;
+        margin: 76px 0px 0px 0px;
     }
     .slider_price {
         grid-template-columns: 1fr;
@@ -183,9 +148,7 @@ margin: 20px;
     .container-fluid {
         flex-wrap: nowrap !important;
     }
-    .navbar-brand {
-        font-size: 15px;
-    }
+    
 }
    /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
