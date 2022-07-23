@@ -117,6 +117,9 @@ margin: 20px;
 .card-img-top {
     padding: 45px;
 }
+.card-title {
+    text-align: center;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
