@@ -113,8 +113,10 @@ margin: 20px;
     margin-top: 20px;
 }
 
-
-
+/* GRID */
+.card-img-top {
+    padding: 45px;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -148,7 +150,9 @@ margin: 20px;
     .container-fluid {
         flex-wrap: nowrap !important;
     }
-    
+    .card-img-top {
+        padding: 40px;
+    }
 }
    /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -160,6 +164,9 @@ margin: 20px;
     }
     .carousel-caption {
         bottom: -0.75rem;
+    }
+    .card-img-top {
+        padding: 15px;
     }
 }
 
@@ -174,6 +181,9 @@ margin: 20px;
     }
     .carousel-caption p {
         font-size: 0.9rem;
+    }
+    .card-img-top {
+        padding: 15px;
     }
 }
 
