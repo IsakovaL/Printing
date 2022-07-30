@@ -100,42 +100,6 @@
             </button>
           </div>
     </div>
-
-    <div class="slider-2-container">
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="2000">
-            <img src="pics/2-layers_1.png" class="d-block w-100" alt="..." style="width: 50% !important; height: 250px;">
-            <div class="carousel-caption d-none d-md-block test">
-              <h5> Листовки </h5>
-              <p class="slider_price"> <span class="price_element">1000 шт - 900 грн </span> <span class="price_element">5000 шт - 3100 грн</span> <span class="price_element">2500 шт - 1800 грн</span> <span class="price_element">10000 шт - 5300грн</span> <span class="price_element"></span> <span class="price_element"></span> </p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="pics/4.png" class="d-block w-100" alt="..." style="width: 50% !important; height: 250px;">
-            <div class="carousel-caption d-none d-md-block test">
-              <h5 class="slider_title"> Сеты для ресторанов </h5>
-              <p class="slider_price"> <span class="price_element">1000 шт - 900 грн </span> <span class="price_element">5000 шт - 3100 грн</span> <span class="price_element">2500 шт - 1800 грн</span> <span class="price_element">10000 шт - 5300грн</span> <span class="price_element"></span> <span class="price_element"></span> </p>
-          </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="pics/slide_2.png" class="d-block w-100" alt="..." style="width: 50% !important; height: 250px;">
-            <div class="carousel-caption d-none d-md-block test">
-              <h5> Евробуклеты </h5>
-              <p class="slider_price"> <span class="price_element">1000 шт - 900 грн </span> <span class="price_element">5000 шт - 3100 грн</span> <span class="price_element">2500 шт - 1800 грн</span> <span class="price_element">10000 шт - 5300грн</span> <span class="price_element"></span> <span class="price_element"></span> </p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
       
 <main>
   <div class="call">
@@ -143,7 +107,7 @@
     <div type="button" class="callback-bt">
       <div class="text-call">
           <i class="fa fa-phone"></i>
-          <span>Заказать<br>звонок</span>
+          <span>Подзвонити</span>
       </div>
   </div>
 </a>
@@ -152,13 +116,13 @@
     <div class="row row-cols-1 row-cols-md-3 g-3">
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <!-- <h5 class="card-title">Визитки</h5> -->
+          <img src="pics/4.png" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" >
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <h5 class="card-title">Визитки</h5>
             <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary bnt-card-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <!-- <button type="button" class="btn btn-primary bnt-card-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Визитки
-  </button>
+  </button> -->
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -179,86 +143,267 @@
       </div>
     </div>
   </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="text">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="text" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Переплет</h5>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Ризограф</h5>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Опис послуги</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="pics/4.png" alt="" style="height:100px; width: 300px;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Цветная печать и копирование</h5>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Опис послуги</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="pics/4.png" alt="" style="height:100px; width: 300px;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Черно-белая печать и копирование</h5>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Опис послуги</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="pics/4.png" alt="" style="height:100px; width: 300px;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="text">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="text" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Сканирование</h5>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Опис послуги</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="pics/4.png" alt="" style="height:100px; width: 300px;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Твердый переплет дипломов</h5>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Опис послуги</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="pics/4.png" alt="" style="height:100px; width: 300px;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Нанесение фото и надписей на футболки, ткани</h5>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Опис послуги</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="pics/4.png" alt="" style="height:100px; width: 300px;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Изготовление наклеек любой формы</h5>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Опис послуги</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="pics/4.png" alt="" style="height:100px; width: 300px;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Широкоформатная печать </h5>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Опис послуги</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="pics/4.png" alt="" style="height:100px; width: 300px;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="pics/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="pics/4.png" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <h5 class="card-title">Заправка и восстановление картриджей</h5>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Опис послуги</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="pics/4.png" alt="" style="height:100px; width: 300px;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molLorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?estias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit consectetur suscipit voluptatem voluptatibus possimus. Dolor molestias molestiae vero maxime voluptates inventore illo odit ut deleniti, quia porro doloribus exercitationem?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Modal -->
           </div>
         </div>
       </div>
